@@ -1,0 +1,17 @@
+.srch-head {
+  font-size: 23px;
+  color: #6d439c;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 992px) {
+  .mt50 {
+    margin-top: 50px;
+  }
+}
+
+/* @media only screen and (min-width: 993px) and (max-width: 1700px) {
+  .mt50 {
+    margin-top: 50px;
+  }
+} */

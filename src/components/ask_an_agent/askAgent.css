@@ -1,0 +1,191 @@
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.ask-wrapper {
+  padding: 0;
+}
+
+col {
+  padding: 0;
+  margin: 0;
+}
+
+.ask-wrapper {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+}
+
+.ask-content {
+  padding: 1% 0px !important;
+  background: url("../../Assets/images/Rectangl741.png");
+}
+
+.ask-content-inner {
+  padding: 8%;
+}
+
+.ask-input {
+  border-radius: 50px;
+  padding-left: 5px;
+  border: 1px solid #d6d9df;
+  row-gap: 5px;
+  width: 90%;
+}
+
+.ask-message {
+  border-radius: 20px;
+  padding: 15px;
+  border: 1px solid #d6d9df;
+  width: 95%;
+  resize: none;
+}
+
+.ask-input:focus,
+.ask-message:focus {
+  outline: none;
+}
+
+.ask-button {
+  border: 2px solid #5d2f91;
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: #5d2f91;
+  font-weight: 500;
+  margin-top: 7px;
+}
+
+.ask-button:hover {
+  color: #fff;
+  background-color: #5d2f91;
+}
+
+.ask-input {
+  padding: 15px;
+}
+
+@media screen and (min-width: 1600px) {
+  .ask-content-inner {
+    padding: 8.5% 12%;
+  }
+
+  .ask-input {
+    padding: 12px 15px;
+  }
+
+  .ask-button {
+    padding: 11px 15px;
+  }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1599px) {
+  .ask-content-inner {
+    padding: 7.5% 12%;
+  }
+
+  .ask-input {
+    padding: 10px 15px;
+  }
+
+  .ask-button {
+    padding: 9px 15px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1499px) {
+  .ask-content-inner {
+    padding: 6.3% 10%;
+  }
+
+  .ask-input {
+    padding: 9px 15px;
+  }
+
+  .ask-button {
+    padding: 8px 15px;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1399px) {
+  .ask-content-inner {
+    padding: 4.4% 8%;
+  }
+
+  .ask-input {
+    padding: 8px 15px;
+  }
+
+  .ask-button {
+    padding: 7px 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1299px) {
+  .ask-content-inner {
+    padding: 1% 7%;
+  }
+
+  .ask-input {
+    padding: 8px 15px;
+  }
+
+  .ask-button {
+    padding: 7px 15px;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1299px) {
+  .ask-content-inner {
+    padding: 1.2% 6%;
+  }
+
+  .ask-input {
+    padding: 8px 15px;
+  }
+
+  .ask-button {
+    padding: 7px 15px;
+  }
+
+  .ask-message {
+    padding: 7px 15px;
+  }
+  .ask-wrapper-image img {
+    height: 440px;
+  }
+}
+
+@media screen and (min-width: 1168px) and (max-width: 1478px) {
+  .ask-wrapper-image img {
+    height: 472px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1099px) {
+  .ask-content-inner {
+    padding: 0% 5%;
+  }
+
+  .ask-input {
+    padding: 8px 15px;
+  }
+
+  .ask-button {
+    padding: 7px 15px;
+  }
+
+  .ask-message {
+    padding: 7px 15px;
+  }
+
+  .ask-wrapper-image img {
+    height: 440px;
+  }
+}
+/* @media screen and (min-width: 992px) and (max-width: 1099px) {
+.ask-wrapper-image img {
+    height: 400px;
+  }
+
+} */

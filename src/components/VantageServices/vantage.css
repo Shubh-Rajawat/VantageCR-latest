@@ -1,0 +1,261 @@
+.vantage-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1%;
+}
+
+.vantage-text {
+  font-size: 1rem;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.vantage-content {
+  margin: 7% 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+}
+
+.vantage-image {
+  position: relative;
+}
+
+.vantage-image .img {
+  /* max-height: 450px; */
+  border-radius: 30px;
+}
+
+.absoluteImg2 {
+  position: absolute;
+  left: -49px;
+  top: 198px;
+  z-index: -1;
+  max-height: 250px;
+}
+
+.button {
+  border: 2px solid #5d2f91;
+  color: #5d2f91;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 2% 5%;
+}
+
+.button:hover {
+  border: 2px solid #5d2f91;
+  color: #fff;
+  background-color: #5d2f91;
+  border-radius: 50px;
+  padding: 2% 5%;
+}
+
+@media screen and (max-width: 940px) {
+  .vantage-content {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .absoluteImg2 {
+    left: -51px;
+    top: 273px;
+  }
+
+  .vantage-image .img {
+    /* max-height: 395px; */
+  }
+}
+
+@media screen and (min-width: 941px) and (max-width: 1921px) {
+  .vantage-content {
+    gap: 60px;
+  }
+
+  .absoluteImg2 {
+    /* max-width: 200px; */
+    top: 292px;
+    left: -38px;
+  }
+
+  .vantage-image .img {
+    width: 100%;
+    /* height: 450px; */
+  }
+
+  .imgparent-about {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* .nav-logo {
+        padding-bottom: 10px;
+    } */
+
+  .vantage-image .img {
+    /* max-height: 300px; */
+  }
+
+  .absoluteImg2 {
+    /* max-width: 200px; */
+    left: -41px;
+    top: 197px;
+  }
+
+  .vantage-content {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .vantage-image .img {
+    /* max-height: 250px; */
+  }
+
+  .absoluteImg2 {
+    left: -11px;
+    top: 183px;
+  }
+
+  .vantage-content {
+    flex-direction: column-reverse;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .vantage-image .img {
+    /* max-height: 200px; */
+  }
+
+  .absoluteImg2 {
+    max-width: 40px;
+    left: -13px;
+    top: 66px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .absoluteImg2 {
+    max-width: 40px;
+    left: 52px;
+    top: 70px;
+  }
+
+  .about-wrapper,
+  .about-wrapper .content {
+    text-align: center;
+    margin-top: 0 !important;
+  }
+
+  .featured-wrapper {
+    padding: 30px 0px;
+  }
+
+  .vantage-content {
+    margin: 0;
+    gap: 30px;
+  }
+
+  .featured-heading.col-md-7 {
+    text-align: center;
+  }
+
+  .chakra-tabs__tablist.smooth-transition.css-1uw5bnh {
+    display: -webkit-inline-box;
+  }
+
+  .featured-switch.col-md-5.d-md-flex.justify-content-md-end.justify-content-start {
+    display: block;
+    text-align: center;
+  }
+
+  .ask-content-inner {
+    padding: 30px 20px 40px 20px !important;
+  }
+
+  .ask-content-inner .ask-button {
+    margin: 30px auto 0;
+    /* width: 150px; */
+    display: block;
+  }
+
+  .footer {
+    margin-top: 45px;
+    gap: 30px;
+  }
+
+  .vantage-info .mob,
+  .vantage-info .address {
+    display: block;
+    margin: 0 0 15px 0;
+  }
+
+  .information {
+    padding: 0 20px 0 20px !important;
+    text-align: center;
+  }
+
+  .vantage-info .mob img,
+  .vantage-info .address img {
+    display: block;
+    margin: auto;
+  }
+
+  .vantage-info .mob span,
+  .vantage-info .address span {
+    padding-top: 8px;
+    display: block;
+  }
+
+  .ask-heading,
+  .vantage-text,
+  .about-data {
+    text-align: center;
+  }
+
+  .welcome {
+    padding: 0% 10px;
+    padding-top: 30px;
+  }
+
+  .a-content,
+  .v-content {
+    gap: 20px;
+  }
+
+  .innerh1 {
+    font-size: 28px;
+  }
+
+  .banner-heading h1 {
+    font-size: 45px;
+  }
+
+  .our-main .row.my-5.py5 {
+    text-align: center;
+    padding: 0px 0 0px 0;
+    margin: 30px 0 !important;
+  }
+
+  h4.member-name.text-center.mt-2 {
+    padding: 15px 0 0 0;
+  }
+
+  .row.outTeam-row {
+    padding: 0 0 30px 0;
+  }
+
+  .contact-us .content {
+    gap: 30px !important;
+    text-align: center;
+  }
+}

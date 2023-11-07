@@ -1,0 +1,393 @@
+/* @font-face {
+  font-family: "Futura Lt BT";
+  src: url("./font/FuturaBT-Light.eot");
+  src: url("./font/FuturaBT-Light.eot?#iefix") format("embedded-opentype"),
+    url("./font/FuturaBT-Light.woff2") format("woff2"),
+    url("./font/FuturaBT-Light.woff") format("woff"),
+    url("./font/FuturaBT-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: AvantGarde;
+  src: url("./font/AvantNormal/AVANTN.ttf");
+}
+
+@font-face {
+  font-family: AvantGardeNavbar;
+  src: url("./font/AvantNormal/AVANTN.ttf");
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap"); */
+
+body {
+  font-family: "AvantGarde" !important;
+  font-style: normal !important;
+}
+
+.navbar {
+  font-family: "AvantGardeNavbar" !important;
+  font-style: normal !important;
+  font-weight: 700;
+  letter-spacing: .5px;
+}
+
+/* .home-wrapper {
+  font-family: "AvantGarde" !important;
+} */
+
+/* 10.07.2023 */
+._32px500 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+._30px500 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+._18px600 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+._414142 {
+  color: #414142;
+}
+
+._5C727D {
+  color: #5c727d;
+}
+
+/* 10.07.2023 */
+
+.bheading {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.innerh1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #868484;
+}
+
+.featurehead {
+  font-size: 40px;
+  font-weight: 600;
+  color: #868484;
+}
+
+.bpara {
+  font-size: 24px;
+  font-weight: 450;
+}
+
+.abpara {
+  font-size: 18px;
+  /* font-weight: 500; */
+  color: #5c727d;
+}
+
+._50px450 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.dropFont {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+._18px400 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #5c727d;
+}
+
+.navfs {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* responsiveness */
+@media only screen and (max-width: 600px) {
+  .bheading {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .bpara {
+    font-size: 16px;
+    font-weight: 450;
+  }
+
+  .innerh1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #414142;
+  }
+
+  .button {
+    padding: 1% 5% !important;
+  }
+
+  .abpara {
+    font-size: 15px;
+  }
+
+  ._50px450 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .dropFont {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .featurehead {
+    font-size: 28px;
+  }
+
+  ._18px400 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .bheading {
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .bpara {
+    font-size: 16px;
+    font-weight: 450;
+  }
+
+  .innerh1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #414142;
+  }
+
+  .button {
+    padding: 1% 5% !important;
+  }
+
+  .abpara {
+    font-size: 16px;
+  }
+
+  ._50px450 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .dropFont {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .featurehead {
+    font-size: 34px;
+  }
+
+  ._18px400 {
+    font-size: 17px;
+    font-weight: 400;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .bheading {
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .bpara {
+    font-size: 16px;
+    font-weight: 450;
+  }
+
+  .innerh1 {
+    font-size: 34px;
+    font-weight: 600;
+  }
+
+  .button {
+    padding: 1% 5% !important;
+  }
+
+  .abpara {
+    font-size: 17px;
+  }
+
+  ._50px450 {
+    font-size: 34px;
+    font-weight: 700;
+  }
+
+  .dropFont {
+    font-size: 27px;
+    font-weight: 700;
+  }
+
+  .featurehead {
+    font-size: 36px;
+  }
+
+  ._5C727D {
+    font-size: 14px;
+  }
+
+  ._18px400 {
+    font-size: 16px;
+  }
+
+  ._30px500 {
+    font-size: 26px;
+  }
+
+  ._32px500 {
+    font-size: 29px;
+  }
+
+  ._18px600 {
+    font-size: 16px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .bheading {
+    font-size: 55px;
+    font-weight: 700;
+  }
+
+  .bpara {
+    font-size: 18px;
+    font-weight: 450;
+  }
+
+  .innerh1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #414142;
+  }
+
+  .button {
+    padding: 1% 5% !important;
+  }
+
+  .abpara {
+    font-size: 17px;
+  }
+
+  ._50px450 {
+    font-size: 34px;
+    font-weight: 700;
+  }
+
+  .dropFont {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .featurehead {
+    font-size: 40px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+/* 404 page design */
+
+.main404 {
+  font-size: 150px;
+  color: #5d2f91;
+}
+
+.link404 {
+  text-decoration: underline;
+  color: #5d2f91;
+  font-weight: 800;
+}
+
+.notfound {
+  text-align: center;
+  padding: 0 5px;
+}
+
+@media only screen and (max-width: 480px) {
+  .main404 {
+    font-size: 100px;
+    color: #5d2f91;
+  }
+
+  ._50px450 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .dropFont {
+    font-size: 28px;
+    font-weight: 600;
+  }
+}
+
+/* 
+.main404 {
+  font-family: 'Alfa Slab One', cursive;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  animation-name: darken;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.notfound {
+  font-family: "Jost", sans-serif !important;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+}
+
+@keyframes darken {
+  0% {
+    font-size: 80px;
+    color: #e56cf8;
+  }
+
+  50% {
+    font-size: 100px;
+    color: #e735f7
+  }
+
+  100% {
+    font-size: 140pxpx;
+    color: #6c058b
+  }
+} */
+
+.v360-fullscreen-toggle {
+  top: 49px !important;
+  font-weight: 900;
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .v360-fullscreen-toggle {
+    top: 55px !important;
+  }
+}

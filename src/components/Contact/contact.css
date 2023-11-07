@@ -1,0 +1,83 @@
+.to-reach-us-head {
+  font-size: 30px;
+  font-weight: 500;
+  color: #868484;
+}
+
+.to-reach-us-desc {
+  color: #5c727d;
+  white-space: pre-line;
+}
+
+.property-location {
+  height: 100%;
+}
+
+iframe {
+  /* height: 100% !important; */
+  width: 100% !important;
+}
+
+#contact-map>iframe {
+  height: 100% !important;
+}
+
+.map-img {
+  height: 100% !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .contact-field {
+    width: 100%;
+  }
+
+  .google-map {
+    height: 350px;
+  }
+
+  .property-location {
+    min-height: 450px;
+  }
+
+  .ask-form-head {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .contact-field {
+    width: 100%;
+  }
+
+  .google-map {
+    height: 400px;
+  }
+
+  .property-location {
+    min-height: 450px;
+  }
+
+  .ask-form-head {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .contact-field {
+    width: 100%;
+  }
+
+  .google-map {
+    height: 450px;
+  }
+
+  .property-location {
+    min-height: 450px;
+  }
+
+  .ask-form-head {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 993px) {}

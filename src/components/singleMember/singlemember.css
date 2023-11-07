@@ -1,0 +1,102 @@
+.mem-name {
+  color: #414142;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.designation {
+  color: #5c727d;
+  font-size: 18px;
+}
+
+.contact-info,
+.mem-desc {
+  color: #414142;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.info-left {
+  color: #414142;
+  font-weight: bold;
+}
+
+.info-right {
+  color: #5c727d;
+}
+
+.desc-main {
+  color: #5c727d;
+}
+
+.single-mem-img {
+  max-width: 400px;
+}
+
+@media screen and (max-width: 576px) {
+  .mem-name {
+    font-size: 22px;
+  }
+
+  .contact-info,
+  .mem-desc {
+    font-size: 18px;
+  }
+
+  .designation {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .mem-name {
+    font-size: 26px;
+  }
+
+  .contact-info,
+  .mem-desc {
+    font-size: 20px;
+  }
+
+  .designation {
+    font-size: 18px;
+  }
+
+  .info-right {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .mem-name {
+    font-size: 30px;
+  }
+
+  .contact-info,
+  .mem-desc {
+    font-size: 22px;
+  }
+
+  .designation {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1150px) {
+  .mem-name {
+    font-size: 32px;
+  }
+}
+
+.linkedIn {
+  color: #5D2F91;
+  text-decoration: none;
+  border: 1px solid #5D2F91;
+  border-radius: 50%;
+  padding: 2px 8px;
+}
+
+.linkedIn:hover {
+  color: #5D2F91;
+
+}

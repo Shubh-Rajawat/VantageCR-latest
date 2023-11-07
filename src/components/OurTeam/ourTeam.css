@@ -1,0 +1,68 @@
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.outTeam-row {
+  /* gap: 10px; */
+  justify-content: center;
+}
+
+.mp-0 {
+  margin: 0;
+  padding: 0;
+}
+
+.our-team-inner {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.our-team-heading {
+  height: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.forOurImage {
+  width: 270px;
+  /* max-width: 290px; */
+  height: 270px;
+  overflow: hidden;
+  margin: auto;
+}
+/* .our-team-heading h1 {
+  font-size: 60px;
+} */
+.our-image {
+  position: relative;
+}
+
+.our-image-profile {
+  width: 100%;
+}
+
+.our-links {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+.our-member:hover .our-links {
+  display: block;
+}
+
+.our-member {
+  transition: all 0.3s ease-in;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.py5 {
+  padding: 5% 0;
+}
