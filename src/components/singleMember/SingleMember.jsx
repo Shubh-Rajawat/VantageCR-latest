@@ -27,7 +27,7 @@ const SingleMember = () => {
         console.log( "res", res );
 
         const singlmem = res?.data?.data?.filter( ( item ) => {
-          return item?.name.replace( ' ', '' ).toLowerCase() == Tid;
+          return item?.name.replace( ' ', '' ).toLowerCase().trim() == Tid;
         } );
         setMemData( singlmem && singlmem[ 0 ] );
       } )
@@ -121,7 +121,11 @@ const SingleMember = () => {
                   { memData?.about && (
                     <>
                       <h2 className="mem-desc">Description</h2>
-                      <p className="desc-main">{ memData?.about }</p>
+                      {/* <p className="desc-main">{ memData?.about }</p> */ }
+                      <p
+                        className="desc-main"
+                        dangerouslySetInnerHTML={ { __html: memData?.about } }
+                      ></p>
                     </>
                   ) }
                   <div className="d-flex justify-content-md-start justify-content-center">
